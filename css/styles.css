@@ -73,7 +73,7 @@ color:var(--active-link-color)
 }
 
 .header-menu-link {
-  color:var(--primary-color-black);
+  color:var(--secondary-color-black);
 }
 
 .header-menu-link:hover {
@@ -101,7 +101,7 @@ color:var(--active-link-color)
 }
 
 .address-contact {
-  color: var(--secondary-color-black);
+  color: var(--primary-color-black);
 }
 
 
@@ -140,13 +140,17 @@ h1 {
 /* Advantages-section */
 
 .advantages-header {
-  color:var(--secondary-color-black);
+  color: var(--secondary-color-black);
 }
 
 /* Team-section */
 
 .team-section {
   background-color: var(--tertiary-background-color);
+}
+
+.team-section-title {
+  color: var(--secondary-color-black);
 }
 
 .team-list-item {
@@ -187,3 +191,18 @@ h1 {
 }
 
 /* Portfolio-section */
+
+.portfolio-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color-black);
+}
+
+.portfolio-item-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color:var(--primary-color-black);
+}
