@@ -143,6 +143,10 @@ h1 {
   color: var(--secondary-color-black);
 }
 
+.advantages-title {
+  color:var(--secondary-color-black)
+}
+
 /* Team-section */
 
 .team-section {
@@ -150,6 +154,10 @@ h1 {
 }
 
 .team-section-title {
+  color: var(--secondary-color-black);
+}
+
+.team-member {
   color: var(--secondary-color-black);
 }
 
